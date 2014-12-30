@@ -1,0 +1,112 @@
+html,body{
+font-family: Georgia, sans-serif;
+/*background-color: #c8ccc8;*/
+background-color: #fff;
+min-height: 100%;
+min-width: 600px;
+margin: 0;
+padding: 0;
+	
+	
+}
+
+.MainHeader{
+position: absolute;
+color: white;
+width: 100%;
+height: 100px;
+top: 0px;
+left: 0px;
+background-color: #575151;
+/*background-color: #67b9fd;*/
+text-align: center;
+border-bottom-width: 3px;
+border-bottom-style: solid;
+border-bottom-color: black;
+}
+
+.HeaderTitle{
+float: left;
+}
+
+.ContactButtons{
+float:right;
+list-style-type: none;
+
+}
+
+#Contact li{
+display: inline;
+color: white;
+}
+
+.BodyContainer{
+max-width: 100%;
+min-width: 1000px;
+min-height: 100%; 
+height: auto !important;
+height: 100%;
+margin: 0 auto -15px;
+
+}
+
+.MiddlePanel {
+position: absolute;
+top: 105px;
+margin-left: 220px;
+margin-right: 220px;
+
+padding-top: 10px; 
+}
+
+.LeftPanel  {
+position: absolute;
+top: 102px;
+left: 0px;
+left-padding: 10px;
+width: 200px;
+min-height: 100%;
+/*background-color: #67b9fd;*/
+background-color: #aaa;
+border-right-width: 1px;
+border-right-style: solid;
+border-right-color: black;
+border-top-width: 1px;
+border-top-style: solid;
+border-top-color: black;
+
+}
+
+.RightPanel  {
+position: absolute;
+top: 102px;
+right: 0px;
+right-padding:10px;
+width: 200px;
+min-height: 100%;
+/*background-color: #67b9fd;*/
+background-color: #aaa;
+border-left-width: 1px;
+border-left-style: solid;
+border-left-color: black;
+border-top-width: 1px;
+border-top-style: solid;
+border-top-color: black;
+}
+
+.Footer, .Push{
+clear: both;
+border-top: 1px solid black;
+text-align: center;
+position: absolute;
+bottom: 0;
+
+height: 15px;
+z-index: 1000;
+vertical-align: baseline;
+bottom: -100px;
+margin-left: 220px;
+margin-right: 220px;
+
+
+}
